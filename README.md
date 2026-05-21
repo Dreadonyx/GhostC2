@@ -1,4 +1,4 @@
-# 👻 GhostC2
+#  GhostC2
 
 A modular Python-based Command & Control framework for CTF and authorized penetration testing. Supports multi-session management, payload generation with obfuscation, file transfers, and a full interactive C2 console.
 
@@ -6,7 +6,7 @@ A modular Python-based Command & Control framework for CTF and authorized penetr
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Dreadonyx/GhostC2.git
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Full C2 Mode
 ```bash
@@ -40,7 +40,7 @@ python main.py -g --lhost 10.10.14.5 --lport 4444
 
 ---
 
-## 🖥️ C2 Console Commands
+##  C2 Console Commands
 
 ```
 sessions              List all active sessions
@@ -67,7 +67,7 @@ exit                         Kill this session
 
 ---
 
-## 🧩 Payload Generator
+##  Payload Generator
 
 Supports 6 payload types with 3 obfuscation options:
 
@@ -87,7 +87,7 @@ Supports 6 payload types with 3 obfuscation options:
 
 ---
 
-## 📋 Session Table
+##  Session Table
 
 ```
 ID  IP              PORT   OS       USER    HOST         TIME     ALIVE
@@ -97,7 +97,7 @@ ID  IP              PORT   OS       USER    HOST         TIME     ALIVE
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 GhostC2/
@@ -126,7 +126,7 @@ GhostC2/
 
 ---
 
-## 🧪 Test It (Safe Local Lab)
+##  Test It (Safe Local Lab)
 
 ```bash
 # Terminal 1 — start GhostC2
@@ -151,12 +151,12 @@ ghost@session-1:~$ bg
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 Only `colorama` — everything else is Python stdlib.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Dreadonyx** — [github.com/Dreadonyx](https://github.com/Dreadonyx)
